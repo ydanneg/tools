@@ -1,0 +1,9 @@
+allContacts:
+  email: 'info@ydanneg.com'
+  phoneNumber: '+372.XXXXXX'
+  postalAddress:
+    regionCode: 'EE'
+    postalCode: '13623'
+    locality: 'Tallinn'
+    addressLines: ['XXXXXXXX']
+    recipients: ['Gennadi Kudrjavtsev']

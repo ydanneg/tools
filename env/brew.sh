@@ -1,7 +1,6 @@
 #!/bin/bash
 
-brew update \
-&& brew install \
+brew update && brew install \
     bash \
     bash-completion \
     coreutils \
@@ -22,9 +21,16 @@ brew update \
     openssl@3 \
     python@3 \
     tree \
+    sevenzip \
+    nvm
 && brew install --cask \
+    atom \
     docker \
     google-cloud-sdk \
     virtualbox \
-    rar \
+    jetbrains-toolbox \
     ;
+
+gcloud -q components install gke-gcloud-auth-plugin
+
+nvm install --lts
